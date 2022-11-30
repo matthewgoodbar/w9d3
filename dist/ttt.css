@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 340px;
+}
+
+li {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+/* #ttt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+
+} */
