@@ -5,4 +5,5 @@ document.addEventListener("DOMContentLoaded", () => {
   const tttElement = document.getElementById("ttt");
   const game = new Game();
   const view = new View(game, tttElement);
+  
 });
